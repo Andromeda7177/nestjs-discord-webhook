@@ -1,12 +1,13 @@
 {
   "name": "nestjs-discord-webhook",
   "version": "1.0.0",
-  "description": "",
+  "description": "webhook to send logs to discord channel based on nestjs-slack-webhook concept",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["nest",
+"discord-webhook"],
   "author": "Ray Jamison",
   "license": "MIT"
 }
