@@ -41,7 +41,7 @@ export class AppModule {}" tabindex="0" role="button">
     </clipboard-copy>
   </div></div>
 <p dir="auto">Inject IncomingWebhook instance</p>
-<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre>@<span class="pl-smi">Injectable</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
+<div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><span>import { WebhookClient } from &quot;discord.js&quot; </span><pre>@<span class="pl-smi">Injectable</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
 <span class="pl-k">export</span> <span class="pl-k">class</span> <span class="pl-smi">AppService</span> <span class="pl-kos">{</span>
   <span class="pl-en">constructor</span><span class="pl-kos">(</span>
     @<span class="pl-smi">InjectDiscord</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-k">private</span> <span class="pl-k">readonly</span> <span class="pl-s1">discord</span>: <span class="pl-smi">WebhookClient</span><span class="pl-kos">,</span>
