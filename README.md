@@ -41,7 +41,7 @@ export class AppModule {}" tabindex="0" role="button">
 </svg>
     </clipboard-copy>
   </div>
-    
+    <p>or using webhook token and id:</p>
 <div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre>@<span class="pl-smi">Module</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
   <span class="pl-c1">imports</span>: <span class="pl-kos">[</span>
     <span class="pl-smi">DiscordModule</span><span class="pl-kos">.</span><span class="pl-en">forRoot</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
