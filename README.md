@@ -44,7 +44,7 @@ export class AppModule {}" tabindex="0" role="button">
 <div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre>@<span class="pl-smi">Injectable</span><span class="pl-kos">(</span><span class="pl-kos">)</span>
 <span class="pl-k">export</span> <span class="pl-k">class</span> <span class="pl-smi">AppService</span> <span class="pl-kos">{</span>
   <span class="pl-en">constructor</span><span class="pl-kos">(</span>
-    @<span class="pl-smi">InjectSlack</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-k">private</span> <span class="pl-k">readonly</span> <span class="pl-s1">slack</span>: <span class="pl-smi">IncomingWebhook</span><span class="pl-kos">,</span>
+    @<span class="pl-smi">InjectDiscord</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-k">private</span> <span class="pl-k">readonly</span> <span class="pl-s1">discord</span>: <span class="pl-smi">WebhookClient</span><span class="pl-kos">,</span>
   <span class="pl-kos">)</span> <span class="pl-kos">{</span><span class="pl-kos">}</span>
 <span class="pl-kos">}</span></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@Injectable()
