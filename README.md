@@ -45,7 +45,8 @@ export class AppModule {}" tabindex="0" role="button">
 <div class="highlight highlight-source-ts notranslate position-relative overflow-auto" dir="auto"><pre>@<span class="pl-smi">Module</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
   <span class="pl-c1">imports</span>: <span class="pl-kos">[</span>
     <span class="pl-smi">DiscordModule</span><span class="pl-kos">.</span><span class="pl-en">forRoot</span><span class="pl-kos">(</span><span class="pl-kos">{</span>
-      <span class="pl-c1">url</span>: <span class="pl-s">"DISCORD_WEBHOOK_URL"</span><span class="pl-kos">,</span> <span class="pl-c">// ref: </span>
+      <span class="pl-c1">url</span>: <span class="pl-s">"DISCORD_WEBHOOK_ID"</span><span class="pl-kos">,</span> <span class="pl-c">// ref: </span><br>
+      <span class="pl-c1">url</span>: <span class="pl-s">"DISCORD_WEBHOOK_TOKEN"</span><span class="pl-kos">,</span> <span class="pl-c">// ref: </span>
     <span class="pl-kos">}</span><span class="pl-kos">)</span><span class="pl-kos">,</span>
   <span class="pl-kos">]</span><span class="pl-kos">,</span>
 <span class="pl-kos">}</span><span class="pl-kos">)</span>
@@ -53,7 +54,8 @@ export class AppModule {}" tabindex="0" role="button">
     <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@Module({
   imports: [
     DiscordModule.forRoot({
-      url: &quot;DISCORD_WEBHOOK_URL&quot;, // ref: 
+      id: &quot;DISCORD_WEBHOOK_ID&quot;,<br> // ref:
+      token:  &quot;DISCORD_WEBHOOK_TOKEN&quot;,
     }),
   ],
 })
