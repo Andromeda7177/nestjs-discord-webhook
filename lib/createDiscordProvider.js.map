@@ -1,0 +1,1 @@
+{"version":3,"file":"createDiscordProvider.js","sourceRoot":"","sources":["../src/createDiscordProvider.ts"],"names":[],"mappings":";;;AAIA,yDAAmD;AACnD,yDAAsD;AAEtD,SAAgB,qBAAqB,CACnC,OAA0B;IAE1B,OAAO;QACL,OAAO,EAAE,gCAAa;QACtB,QAAQ,EAAE,IAAA,mCAAgB,EAAC,OAAO,CAAC;KACpC,CAAC;AACJ,CAAC;AAPD,sDAOC"}

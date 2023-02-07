@@ -1,0 +1,1 @@
+{"version":3,"file":"getDiscordClient.js","sourceRoot":"","sources":["../src/getDiscordClient.ts"],"names":[],"mappings":";;;AAEA,2CAA8D;AAE9D,SAAgB,gBAAgB,CAAC,OAA0B;IACzD,MAAM,aAAa,GAAG,IAAI,0BAAa,CAAC,OAAO,CAAC,CAAC;IACjD,OAAO,aAAa,CAAC;AACvB,CAAC;AAHD,4CAGC"}

@@ -1,8 +1,8 @@
-<h1 dir="auto"><a id="user-content-nestjs-slack-webhook" class="anchor" aria-hidden="true" href="#nestjs-slack-webhook"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>nestjs-discord-webhook</h1>
+<h1 dir="auto"><a id="user-content-nestjs-discord-webhook" class="anchor" aria-hidden="true" href="#nestjs-discord-webhook"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>nestjs-discord-webhook</h1>
 <p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://github.com/g59/nestjs-plugins/workflows/Node%20CI/badge.svg"><img src="https://github.com/g59/nestjs-plugins/workflows/Node%20CI/badge.svg" alt="Actions Status" style="max-width: 100%;"></a>
-<a href="https://badge.fury.io/js/nestjs-discord-webhook" rel="nofollow"><img src="https://camo.githubusercontent.com/b64ecc147a4cd7817e214f77e4ab6f9420c800b034f775c786b2bed44539852b/68747470733a2f2f62616467652e667572792e696f2f6a732f6e6573746a732d736c61636b2d776562686f6f6b2e737667" alt="npm version" data-canonical-src="https://badge.fury.io/js/nestjs-slack-webhook.svg" style="max-width: 100%;"></a></p>
+<a href="https://badge.fury.io/js/nestjs-discord-webhook" rel="nofollow"><img src="https://camo.githubusercontent.com/b64ecc147a4cd7817e214f77e4ab6f9420c800b034f775c786b2bed44539852b/68747470733a2f2f62616467652e667572792e696f2f6a732f6e6573746a732d736c61636b2d776562686f6f6b2e737667" alt="npm version" data-canonical-src="https://badge.fury.io/js/nestjs-discord-webhook.svg" style="max-width: 100%;"></a></p>
 <p dir="auto">Nest.js +
-<a href="https://github.com/slackapi/node-slack-sdk/tree/main/packages/webhook">Slack Incoming Webhook</a></p>
+<a href="https://github.com/discordjs/discord.js/blob/main/packages/discord.js/src/client/WebhookClient.js">Discord Webhook Client</a></p>
 <h2 dir="auto"><a id="user-content-install" class="anchor" aria-hidden="true" href="#install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Install</h2>
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto"><pre class="notranslate"><code>npm install nestjs-discord-webhook
 </code></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
@@ -77,10 +77,11 @@ export class AppModule {}" tabindex="0" role="button">
     @<span class="pl-smi">InjectDiscord</span><span class="pl-kos">(</span><span class="pl-kos">)</span> <span class="pl-k">private</span> <span class="pl-k">readonly</span> <span class="pl-s1">discord</span>: <span class="pl-smi">WebhookClient</span><span class="pl-kos">,</span>
   <span class="pl-kos">)</span> <span class="pl-kos">{</span><span class="pl-kos">}</span>
 <span class="pl-kos">}</span></pre><div class="zeroclipboard-container position-absolute right-0 top-0">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@Injectable()
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn js-clipboard-copy m-2 p-0 tooltipped-no-delay" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import { WebhookClient} from 'discord.js'; 
+    @Injectable()
 export class AppService {
   constructor(
-    @InjectSlack() private readonly slack: IncomingWebhook,
+    @InjectSlack() private readonly discord: WebhookClient,
   ) {}
 }" tabindex="0" role="button">
       <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon m-2">

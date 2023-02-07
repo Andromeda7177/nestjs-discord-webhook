@@ -1,6 +1,6 @@
 {
   "name": "nestjs-discord-webhook",
-  "version": "1.9.21",
+  "version": "1.10.5",
   "description": "webhook to send logs to discord channel based on nestjs-slack-webhook concept",
   "main": "main/index.js",
   "scripts": {
@@ -13,9 +13,7 @@
 "discord-webhook"],
   "author": "Ray Jamison",
   "license": "MIT",
-  "devDependencies": {
-    "discord.js": "^14.7.1"
-  },
+  
   "peerDependencies": {
     "@nestjs/common": "^9.2.1",
     "discord.js": "^14.7.1"
