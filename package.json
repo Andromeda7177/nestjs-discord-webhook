@@ -2,7 +2,7 @@
   "name": "nestjs-discord-webhook",
   "version": "1.10.5",
   "description": "webhook to send logs to discord channel based on nestjs-slack-webhook concept",
-  "main": "main/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "npm run clean && tsc -p",
     "clean": "rimraf lib",
